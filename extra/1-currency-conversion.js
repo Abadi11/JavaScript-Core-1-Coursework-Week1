@@ -7,7 +7,7 @@
 
 function convertToUSD(num) {
   let usd = num * 1.4
- return usd.toFixed(2);
+ return usd;
 }
 
 /*
@@ -20,7 +20,7 @@ function convertToUSD(num) {
 
 function convertToBRL(num) {
  let brl =  num* 5.7* 0.99;
- return brl.toFixed(2);
+ return Number(brl.toFixed(2));
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== 
